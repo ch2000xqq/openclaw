@@ -4,6 +4,7 @@
   "description": "Multi-channel AI gateway with extensible messaging integrations",
   "keywords": [],
   "license": "MIT",
+"type": "module"，
   "author": "",
   "bin": {
     "openclaw": "openclaw.mjs"
@@ -134,6 +135,7 @@
     "dotenv": "^17.2.4",
     "express": "^5.2.1",
     "file-type": "^21.3.0",
+    "global-agent": "^4.1.2",
     "grammy": "^1.40.0",
     "jiti": "^2.6.1",
     "json5": "^2.2.3",
@@ -209,5 +211,19 @@
       "protobufjs",
       "sharp"
     ]
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openclaw/openclaw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openclaw/openclaw/issues"
+  },
+  "homepage": "https://github.com/openclaw/openclaw#readme"
 }
+
+

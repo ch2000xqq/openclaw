@@ -1,8 +1,16 @@
 #!/usr/bin/env node
+import 'dotenv/config'
+
 import { spawn } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
+
+console.log(
+  '[ENV CHECK]',
+  process.env.TELEGRAM_BOT_TOKEN,
+  process.env.TELEGRAM_CHAT_ID
+)
 
 const args = process.argv.slice(2);
 const env = { ...process.env };
