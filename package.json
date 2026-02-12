@@ -4,7 +4,7 @@
   "description": "Multi-channel AI gateway with extensible messaging integrations",
   "keywords": [],
   "license": "MIT",
-"type": "module"，
+"type": "module",
   "author": "",
   "bin": {
     "openclaw": "openclaw.mjs"
@@ -225,5 +225,3 @@
   },
   "homepage": "https://github.com/openclaw/openclaw#readme"
 }
-
-

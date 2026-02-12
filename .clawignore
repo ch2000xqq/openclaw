@@ -1,0 +1,39 @@
+# --- 必须屏蔽的巨型目录 (节省 Token 的核心) ---
+node_modules/
+dist/
+build/
+.output/
+.nuxt/
+unpackage/
+
+# --- 二进制与静态资源 (AI 看不懂，也没必要读) ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.pdf
+*.mp4
+*.zip
+*.tar.gz
+
+# --- 各种锁文件 (极其消耗 Token，AI 不需要读) ---
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- 环境与私密文件 (安全第一) ---
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+.git/
+
+# --- 临时文件与缓存 ---
+.cache/
+.eslintcache
+.stylelintcache
+*.log
+tmp/
